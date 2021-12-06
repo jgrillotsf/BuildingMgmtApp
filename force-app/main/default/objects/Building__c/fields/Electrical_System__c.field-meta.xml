@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Electrical_System__c</fullName>
+    <description>Type of Electrical</description>
+    <externalId>false</externalId>
+    <label>Electrical System</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100 Amp Service</fullName>
+                <default>false</default>
+                <label>100 Amp Service</label>
+            </value>
+            <value>
+                <fullName>200 Amp Service</fullName>
+                <default>false</default>
+                <label>200 Amp Service</label>
+            </value>
+            <value>
+                <fullName>400 Amp Service</fullName>
+                <default>false</default>
+                <label>400 Amp Service</label>
+            </value>
+            <value>
+                <fullName>Sub-Panel</fullName>
+                <default>false</default>
+                <label>Sub-Panel</label>
+            </value>
+            <value>
+                <fullName>Dedicated Fuse(s)</fullName>
+                <default>false</default>
+                <label>Dedicated Fuse(s)</label>
+            </value>
+            <value>
+                <fullName>Self-Contained (Green) System</fullName>
+                <default>false</default>
+                <label>Self-Contained (Green) System</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

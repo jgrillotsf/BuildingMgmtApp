@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Water_System__c</fullName>
+    <description>Type of Water System Building Uses</description>
+    <externalId>false</externalId>
+    <label>Water System</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Municipal Water</fullName>
+                <default>false</default>
+                <label>Municipal Water</label>
+            </value>
+            <value>
+                <fullName>Well</fullName>
+                <default>false</default>
+                <label>Well</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
