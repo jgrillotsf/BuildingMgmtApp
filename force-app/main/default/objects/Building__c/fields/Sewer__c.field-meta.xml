@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sewer__c</fullName>
+    <description>Sewer System</description>
+    <externalId>false</externalId>
+    <label>Sewer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Municipal Sewer</fullName>
+                <default>false</default>
+                <label>Municipal Sewer</label>
+            </value>
+            <value>
+                <fullName>Septic Tank</fullName>
+                <default>false</default>
+                <label>Septic Tank</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
